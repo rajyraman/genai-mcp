@@ -20,7 +20,7 @@ Install the VSCode extension. You need at least Node.js v20. Refer to https://mi
 
 If you install the March 2025 version of VSCode Insiders, you should be able to run the GenAIScript MCP server locally, to get the tool versions installed on your local machine.
 
-[mcp.json](./.vscode/mcp.json) is where you would configure the MCP servers. Below is the sample configuration on Windows. You don't even need to clone this repo with this approach, as GenAIScript can clone the repo in the background for you to just use the tools.
+[mcp.json](./.vscode/mcp.json) is where you would configure the MCP servers. Below is the sample configuration on Windows. You don't even need to clone this repo with this approach, as GenAIScript can clone the repo in the background for you to just use the tools. If you are using the `--remote` flag, you don't need to install the GenAIScript extension at all.
 
 ```json
 {
