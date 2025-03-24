@@ -22,7 +22,7 @@ If you install the March 2025 version of VSCode Insiders, you should be able to 
 
 [mcp.json](./.vscode/mcp.json) is where you would configure the MCP servers. Below is the sample configuration on Windows. You don't even need to clone this repo with this approach, as GenAIScript can clone the repo in the background for you to just use the tools. If you are using the `--remote` flag, you don't need to install the GenAIScript extension at all.
 
-```json
+```jsonc
 {
     "servers": {
         "genaiscript-mcp-remote": {
