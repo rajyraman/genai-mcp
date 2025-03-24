@@ -1,0 +1,23 @@
+{
+    "servers": {
+        "genaiscript-mcp": {
+            "type": "stdio",
+            "command": "cmd",//Have run like this in Windows. Otherwise ENOENT for npx, atleast in my machine.
+            "args": [
+                "/c",
+                "npx",
+                "-y",
+                "genaiscript",
+                "mcp",
+                "--cwd",
+                "${workspaceFolder}",
+                "--groups",
+                "mcp"
+            ],
+            "env": {
+                "DEBUG": "*"
+            }
+            // "envFile": "${workspaceFolder}/.env"
+        }
+    }
+}
